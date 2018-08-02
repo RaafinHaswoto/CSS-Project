@@ -1,0 +1,65 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#header {
+    font-size: 27px;
+}
+#contain {
+    list-style-type: none;
+    overflow: hidden;
+    border: solid 2px black;
+    padding: 14px 16px;
+}
+
+.link {
+    margin-right: 5px;
+}
+
+.menu {
+    overflow: hidden;
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 27px;
+}
+
+.content {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.hello {
+    margin-right: 20px;
+}
+
+.article-1 {
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 2px black;
+}
+
+.article-2 {
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 2px black;
+}
+
+.sidebar {
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 2px black;
+}
+
+footer {
+    border: 2px solid black;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
